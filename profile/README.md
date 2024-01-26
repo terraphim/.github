@@ -1,7 +1,5 @@
-+++
-title = "Terraphim - Privacy Preserving AI assistant"
-description = "Privacy Preserving AI assistant, works for you under your full control"
-+++
+# Terraphim - Privacy Preserving AI assistant
+## Privacy Preserving AI assistant, works for you under your full control
 
 # Overview
 
