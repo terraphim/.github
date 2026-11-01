@@ -61,7 +61,7 @@
 | [**terraphim-ai-desktop**](https://github.com/terraphim/terraphim-ai-desktop) | ![Stars](https://img.shields.io/github/stars/terraphim/terraphim-ai-desktop?style=flat-square&logo=github&logoColor=white) | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | Privacy-first desktop application built with Tauri |
 | [**md-book**](https://github.com/terraphim/md-book) | ![Stars](https://img.shields.io/github/stars/terraphim/md-book?style=flat-square&logo=github&logoColor=white) | ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) | Rust documentation can be pretty — the engine behind docs.terraphim.ai |
 | [**terraphim-liquid-glass-terminal**](https://github.com/terraphim/terraphim-liquid-glass-terminal) | ![Stars](https://img.shields.io/github/stars/terraphim/terraphim-liquid-glass-terminal?style=flat-square&logo=github&logoColor=white) | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | Terminal emulator with liquid glass design effects, Rust/Tauri |
-| [**terraphim-skills**](https://github.com/terraphim/terraphim-skills) | ![Stars](https://img.shields.io/github/stars/terraphim/terraphim-skills?style=flat-square&logo=github&logoColor=white) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Best-practice engineering skills for Rust/WebAssembly development with AI coding agents |
+| [**Terraphim Skills**](https://terraphim-skills.md) | — | — | Discover, install, and publish skills for any AI coding agent |
 | [**terraphim-firecracker**](https://github.com/terraphim/terraphim-firecracker) | ![Stars](https://img.shields.io/github/stars/terraphim/terraphim-firecracker?style=flat-square&logo=github&logoColor=white) | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) | Firecracker VM tooling for the Terraphim Private Cloud |
 
 ### Quick Install
@@ -69,9 +69,10 @@
 > [!TIP]
 > ```bash
 > # macOS / Linux
-> brew tap terraphim/terraphim && brew install terraphim-ai
+> brew tap terraphim/terraphim && brew install terraphim-grep terraphim-agent
 > # or via Cargo
-> cargo install terraphim-agent
+> cargo install terraphim_grep --locked
+> cargo install terraphim_agent --locked
 > # or one-liner
 > curl -fsSL https://raw.githubusercontent.com/terraphim/terraphim-ai/main/scripts/install.sh | bash
 > ```
@@ -84,9 +85,9 @@
 | Project | What it is |
 |:--------|:-----------|
 | [**terraphim.ai**](https://github.com/terraphim/terraphim.ai) | Project website — [terraphim.ai](https://terraphim.ai) |
-| [**vscode-terraphim**](https://github.com/terraphim/vscode-terraphim) | VS Code extension for Terraphim search |
+| [**VS Code extension**](https://github.com/terraphim/terraphim-ai/blob/main/vs-code-terraphim-it/README.md) | VS Code extension for Terraphim search, in terraphim-ai |
 | [**zed-terraphim**](https://github.com/terraphim/zed-terraphim) | Zed editor extension |
-| [**terraphim-wxt-extension**](https://github.com/terraphim/terraphim-wxt-extension) | Browser extension: WASM-powered KG search on any page |
+| [**Browser extensions**](https://github.com/terraphim/terraphim-ai/blob/main/browser_extensions/INSTALL.md) | Browser extensions for Terraphim search, in terraphim-ai |
 | [**terraphim-cursor-plugin**](https://github.com/terraphim/terraphim-cursor-plugin) | Cursor skills for Terraphim search, learning, and memory |
 | [**INCOSE-Systems-Engineering-Handbook**](https://github.com/terraphim/INCOSE-Systems-Engineering-Handbook) | Semantic search over the systems engineering body of knowledge |
 
